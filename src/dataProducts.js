@@ -1,13 +1,13 @@
 const dataProducts = [
     {
         id:1,
-        img: "/img/slide1.jpg",
+        img: "img/slide1.jpg",
         title: "title1",
         info: "text1text1text1text1text1text1text1text1text1"
     },
     {
         id:2,
-        img: "/img/slide2.jpg",
+        img: "img/slide2.jpg",
         title: "title2",
         info: "text2text2text2text2text2text2text2text2text2"
     },

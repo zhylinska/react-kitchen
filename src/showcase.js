@@ -5,7 +5,7 @@ export default function Showcase() {
 
     return (
         <section id="showcase" className="showcaseContainer">
-            <img className="img" src="/img/showcase_background.jpg" alt="img"/>
+            <img className="img" src="img/showcase_background.jpg" alt="img"/>
             <div className="showcaseText">
                 <div className="title"
                      onClick={()=>setShowText(prev=> !prev)}
