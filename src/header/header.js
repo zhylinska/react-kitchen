@@ -8,13 +8,6 @@ export default function Header({inBasket, setInBasket, Delete}) {
 
     const [showMenu, setShowMenu] = useState(false)
 
-
-
-
-
-
-    console.log(inBasket)
-
     const basketItems = inBasket.map((item) => {
         return (
             <li
