@@ -1,0 +1,68 @@
+
+.joinButton {
+    position: fixed;
+    bottom: 8rem;
+    right: 3rem;
+    padding: 1rem;
+    font-size: 1.3rem;
+    border-radius: 20px;
+    border: transparent;
+}
+.joinButton:hover {
+    background: #b9b6b6;
+}
+.modalWrapper {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 0;
+
+
+}
+.joinFormContainer {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+
+.joinForm {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-width: 500px;
+    margin: 0 auto;
+    padding: 3rem;
+}
+.formCloseButton {
+    background: none;
+    font-size: 3rem;
+    border: transparent;
+    color: whitesmoke;
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+
+}
+.joinInput {
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.joinInputLabel {
+    text-align: left;
+    font-size: 1.3rem;
+    text-transform: capitalize;
+}
+.joinInputButton {
+   max-width: fit-content;
+    padding: 0.7rem 3rem;
+    border: transparent;
+    border-radius: 5px;
+}
+.joinInputButton:hover {
+   background: #b9b6b6;
+}
