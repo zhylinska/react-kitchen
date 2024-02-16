@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-kitchen/static/css/main.9486affa.css",
-    "main.js": "/react-kitchen/static/js/main.986cfe7d.js",
+    "main.js": "/react-kitchen/static/js/main.93f59f44.js",
     "static/js/787.be652ebc.chunk.js": "/react-kitchen/static/js/787.be652ebc.chunk.js",
     "static/media/slide6.jpg": "/react-kitchen/static/media/slide6.3f2c1932845df0f05608.jpg",
     "static/media/slide7.jpg": "/react-kitchen/static/media/slide7.e694f626c9c3be06b908.jpg",
@@ -12,11 +12,11 @@
     "static/media/showcase_background.jpg": "/react-kitchen/static/media/showcase_background.21a1a08901e7509a1135.jpg",
     "index.html": "/react-kitchen/index.html",
     "main.9486affa.css.map": "/react-kitchen/static/css/main.9486affa.css.map",
-    "main.986cfe7d.js.map": "/react-kitchen/static/js/main.986cfe7d.js.map",
+    "main.93f59f44.js.map": "/react-kitchen/static/js/main.93f59f44.js.map",
     "787.be652ebc.chunk.js.map": "/react-kitchen/static/js/787.be652ebc.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9486affa.css",
-    "static/js/main.986cfe7d.js"
+    "static/js/main.93f59f44.js"
   ]
 }
