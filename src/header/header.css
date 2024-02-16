@@ -1,0 +1,102 @@
+/*header*/
+.headerContainer {
+    position: relative;
+    z-index: 2;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5rem;
+    background: white;
+    color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.navBlock {
+    display: flex;
+    flex-direction: row;
+}
+
+.navItem {
+    padding: 0 1.5rem;
+    position: relative;
+    font-weight: bold;
+    cursor: pointer;
+}
+.navItem:hover {
+    color: red;
+}
+ul {
+    font-weight: normal;
+    display: none;
+    position: absolute;
+    background: white;
+    text-align: left;
+    list-style: none;
+    left: -0.5rem;
+}
+
+.menuItem {
+    list-style: none;
+    white-space: nowrap;
+    padding: 0.5rem 2rem;
+    cursor: pointer;
+    color: #241f1f;
+}
+
+.navItem:hover ul {
+    display: block;
+}
+
+.ref {
+    text-decoration: none;
+    color: #241f1f;
+}
+
+.menuItem:hover {
+    background: #b9b6b6;
+}
+
+.logo {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.basketCounter {
+    position: relative;
+}
+
+.inBasket {
+    display: none;
+    position: absolute;
+    background: white;
+    padding: 1rem 2rem;
+    top: 2rem;
+    left: -0.5rem;
+}
+
+.basketCounter:hover .inBasket {
+    display: flex;
+    flex-direction: column;
+}
+
+.basketItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.delete {
+    color: red;
+    padding: 0 1rem;
+    font-size: 1.5rem;
+    border: none;
+    background: transparent;
+}
+

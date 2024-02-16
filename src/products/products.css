@@ -1,0 +1,65 @@
+/*products*/
+.productCardContainer {
+    width: 1600px;
+    height: 70vh;
+    margin: 0 auto 3rem auto;
+    background: transparent;
+    position: relative;
+}
+
+.productCardText {
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+    cursor: pointer;
+}
+
+.productCardBasketContainer {
+    max-width: 300px;
+    position: absolute;
+    right: 0.5rem;
+    top: 0.5rem;
+}
+
+.productCardBasket {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    background: #241f1f;
+    padding: 10px 11px 4px 9px;
+    border-radius: 50%;
+    border: solid 2px #e6dfdf;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+.add_to_basket {
+    position: absolute;
+    top: 3.5rem;
+    right: 5.5rem;
+    white-space: nowrap;
+    display: none;
+    font-size: 1rem;
+}
+.productCardBasket:hover {
+    color: red;
+}
+.productCardBasketContainer:hover .add_to_basket {
+    display: block;
+}
+
+.basketCounter {
+    display: flex;
+    flex-direction: row;
+}
+
+.basketNumber {
+    font-size: 1rem;
+}
+

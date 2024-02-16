@@ -1,0 +1,14 @@
+/*footer*/
+.footerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem 5rem;
+    background: whitesmoke;
+    color: #241f1f;
+}
+
+.contactIcon {
+    font-size: 2rem;
+    padding-left: 1rem;
+}

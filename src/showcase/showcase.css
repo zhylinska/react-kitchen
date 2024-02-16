@@ -1,0 +1,32 @@
+/*showcase*/
+.showcaseContainer {
+    width: 1600px;
+    height: 70vh;
+    margin: 3rem auto;
+    background: black;
+    position: relative;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    max-width: 350px;
+    text-align: left;
+    cursor: pointer;
+}
+
+.showcaseText {
+    position: absolute;
+    bottom: 2rem;
+    left: 2rem;
+}
+
+.red {
+    color: red;
+    font-weight: bold;
+    font-size: 2rem;
+    background: transparent;
+    border: transparent;
+    margin-left: 1rem;
+}

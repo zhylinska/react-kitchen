@@ -1,0 +1,20 @@
+
+/*questions*/
+.questionsContainer {
+    border: solid 1px whitesmoke;
+    width: max-content;
+    margin: 3rem auto;
+}
+
+.questionCard {
+    padding: 1rem 5rem;
+    border: solid 1px whitesmoke;
+    cursor: pointer;
+}
+
+.question {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
